@@ -1,0 +1,13 @@
+# Partial inventory observed in the same Colab runtime during evidence recovery.
+# This is not a transitive lockfile. See results/qualitative_comparison.json.
+# Torch was preinstalled: 2.11.0+cu130. Install the appropriate CUDA torch build first;
+# the base requirements.txt remains the supported setup entry point.
+transformers==5.18.0
+trl==1.14.2
+peft==0.21.1
+accelerate==1.15.0
+datasets==5.1.0
+bitsandbytes==0.50.2; platform_system == "Linux"
+torchao==0.18.0
+tokenizers==0.23.2
+jinja2==3.1.6

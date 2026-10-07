@@ -1,0 +1,70 @@
+FINAL EXTRACTED ARCHIVE: verify.py
+
+[  ok  ] labkit imports                                   
+[  ok  ] tier resolves                                    T4 -> unsloth/Qwen3.5-4B
+[  ok  ] all tiers respect the <32 effective-batch rule   
+[  ok  ] data/train_seed.jsonl                            250 rows
+[  ok  ] data/eval_target.jsonl                           50 rows
+[  ok  ] data/eval_regression.jsonl                       15 rows
+[  ok  ] unit tests                                       119 passed in 2.35s
+[  ok  ] results/template_check.json                      
+[  ok  ] results/mask_proof.json                          
+[  ok  ] results/token_stats.json                         
+[  ok  ] results/baselines_frozen.json                    
+[  ok  ] results/runs.csv                                 
+[  ok  ] results/verdict.json                             
+[  ok  ] results/autopsy.json                             
+[  ok  ] submission/REPORT.md                             
+[  ok  ] REPORT.md filled in                              ~3026 words
+[  ok  ] mask proof asserts                               
+[  ok  ] full eval set used                               50 target items
+[  ok  ] baseline (b) prompt unmodified                   
+[  ok  ] baseline (b) beats (a)                           (a)=0.000 -> (b)=0.765
+[  ok  ] eval sets unmodified                             
+[  ok  ] NB3 run present                                  
+[  ok  ] NB4 contrast runs                                
+[  ok  ] all runs share ONE step budget                   ['attn_only', 'correct', 'qlora', 'wrong_lr'] at 30 steps
+[  ok  ] attn_only is a FAIR contrast                     32,456,704 vs 32,464,896 trainable params
+[  ok  ] verdict recorded                                 FAILED (target Δ +0.205, regression Δ -0.136)
+[ warn ] note                                             A FAILED verdict is fully gradeable — analyse it honestly in REPORT.md rather than loosening the gate.
+
+26 passed · 1 warnings · 0 failures
+
+Ready to submit. Read the warnings first.
+
+
+FINAL EXTRACTED ARCHIVE: validate_submission.py
+{
+  "checks": {
+    "original_result_bytes_preserved": true,
+    "full_eval_and_same_model": true,
+    "all_four_train_and_eval_runs": true,
+    "same_step_budget": true,
+    "matched_parameter_budget": true,
+    "prompt_sha_matches_frozen": true,
+    "qualitative_original_count_and_average": true,
+    "reported_verdict_recomputed": true,
+    "conclusion_at_least_150_words": true,
+    "report_no_template_placeholders": true,
+    "recovery_matches_original_aggregate_scores": true,
+    "recovery_inputs_and_labels_unchanged": true,
+    "recovery_target_scores_recomputed": true,
+    "recovered_ft_matches_original_scores_and_previews": true,
+    "recovery_regression_scores_recomputed": true,
+    "at_least_two_paired_losses_available": true
+  },
+  "all_recorded_checks_pass": true,
+  "paired_loss_counts": {
+    "target": 0,
+    "regression": 5
+  },
+  "qualitative_recovery_present": true,
+  "warnings": [
+    "The measured verdict is FAILED; permitted by rubric when analysed honestly.",
+    "Actual max_length=1024 differs from p95 suggestion 256; documented, not retroactively changed.",
+    "One seed and small synthetic eval limit generalisation."
+  ]
+}
+
+
+Archive has current report, all 65 paired predictions, 6 detailed examples, full results, original adapter, cleared notebooks. CRC verified.

@@ -1,0 +1,52 @@
+{
+  "source_commit": "d27c1c0",
+  "source_notebook": "colab/Lab21_RUN_ALL.ipynb",
+  "gpu": "Tesla T4",
+  "available_vram_gb": 14.6,
+  "precision": "fp16",
+  "epochs": 2,
+  "seed": 42,
+  "max_length_actual": 1024,
+  "train_count": 225,
+  "val_count": 25,
+  "max_steps": 30,
+  "original_colab_tests_passed": 119,
+  "checksums": {
+    "eval_regression.jsonl": {
+      "expected": "9c6ba90ea86e28fb",
+      "actual": "9c6ba90ea86e28fb",
+      "restored_lf_line_endings": true
+    },
+    "eval_target.jsonl": {
+      "expected": "2991050fefb848c8",
+      "actual": "2991050fefb848c8",
+      "restored_lf_line_endings": true
+    },
+    "holdout_secret.jsonl": {
+      "expected": "be3dd38d058871a5",
+      "actual": "be3dd38d058871a5",
+      "restored_lf_line_endings": true
+    },
+    "train_seed.jsonl": {
+      "expected": "2a58fe45d7315da0",
+      "actual": "2a58fe45d7315da0",
+      "restored_lf_line_endings": true
+    }
+  },
+  "original_result_sha256": {
+    "results/autopsy.json": "b7080ed5a05fcd8f012af14cf5f165de3c2b7b1c8118252b9ef084a9893ee491",
+    "results/qualitative.json": "e5b98358694097bcce4222a6f2b8662b63269f6ee123a8006c5271c9c66ce620",
+    "results/runs.csv": "964d582d4b5e0bf2493d90defb2ea2497e8dc108ba82eba93b42714a101736ba",
+    "results/template_check.json": "70d2cdec945ef5c196a0064f7379295487f3ea15d61b63455b8ffd285babe5ce",
+    "results/token_stats.json": "8bd9c33599d01dd5ba185264b40b516fa39b57f79cee2378284f47e37667532b",
+    "results/verdict.json": "5aac7b187f1e3c0d3b2d8e12ae53043470446929a5062d2020dea895e3c5859d",
+    "results/baselines_frozen.json": "241f3c7c23706cbe0d054fa92d5f16ee98121b55a74d7c5b84ffff6ec2455260",
+    "results/mask_proof.json": "a7d94d282e36b594dd2d8045e6b278844fc2f5bd1bf4ca71831bc73dd09dc910"
+  },
+  "adapter": {
+    "tensor_count": 496,
+    "parameter_count": 32464896,
+    "sha256": "134e3f90f739fff49427a4084f62514b5016caf6197088b84951b15ef82913e8"
+  },
+  "qualitative_recovery_present": true
+}

@@ -1,5 +1,12 @@
 # Day 21 — Fine-tuning LLMs · Lab (Track 3)
 
+**Bài nộp của Đào Ngọc Bình Thiên — 2A202602814:** đọc
+[report](submission/REPORT.md) và [ví dụ đối chiếu](submission/QUALITATIVE.md).
+Results đã được lưu đầy đủ trong repo. Sau khi clone, chạy
+`python scripts/restore_large_files.py` để ghép lại adapter weights và
+`submission/lab21_2A202602814.zip` từ các phần nhỏ có kiểm tra SHA-256.
+Xem [hướng dẫn bài nộp](submission/README.md) và [file lớn](large_files/README.md).
+
 > **AICB-P2T3 · Ngày 21 · Chương 5 — Fine-tuning & An Toàn**
 > Đi kèm deck `day21-fine-tuning-llms-lora-qlora.tex` (140 trang · 25 module; bản gọn 72 trang).
 

@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "original_result_bytes_preserved": true,
+    "full_eval_and_same_model": true,
+    "all_four_train_and_eval_runs": true,
+    "same_step_budget": true,
+    "matched_parameter_budget": true,
+    "prompt_sha_matches_frozen": true,
+    "qualitative_original_count_and_average": true,
+    "reported_verdict_recomputed": true,
+    "conclusion_at_least_150_words": true,
+    "report_no_template_placeholders": true
+  },
+  "all_recorded_checks_pass": true,
+  "paired_loss_counts": null,
+  "qualitative_recovery_present": false,
+  "warnings": [
+    "Paired baseline predictions missing: pending Colab inference recovery. Do not label FT errors as baseline losses without evidence.",
+    "The measured verdict is FAILED; permitted by rubric when analysed honestly.",
+    "Actual max_length=1024 differs from p95 suggestion 256; documented, not retroactively changed.",
+    "One seed and small synthetic eval limit generalisation."
+  ]
+}

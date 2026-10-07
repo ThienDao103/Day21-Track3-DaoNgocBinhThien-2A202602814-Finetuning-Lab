@@ -1,0 +1,51 @@
+{
+  "source": "results/qualitative_comparison.json",
+  "selected_examples": [
+    {
+      "group": "regression",
+      "i": 3,
+      "baseline_b_score": 1.0,
+      "correct_score": 0.0,
+      "delta": -1.0
+    },
+    {
+      "group": "regression",
+      "i": 9,
+      "baseline_b_score": 1.0,
+      "correct_score": 0.0,
+      "delta": -1.0
+    },
+    {
+      "group": "target",
+      "i": 0,
+      "baseline_b_score": 0.75,
+      "correct_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "group": "target",
+      "i": 1,
+      "baseline_b_score": 0.75,
+      "correct_score": 1.0,
+      "delta": 0.25
+    },
+    {
+      "group": "target",
+      "i": 2,
+      "baseline_b_score": 1.0,
+      "correct_score": 1.0,
+      "delta": 0.0
+    },
+    {
+      "group": "target",
+      "i": 3,
+      "baseline_b_score": 0.75,
+      "correct_score": 0.75,
+      "delta": 0.0
+    }
+  ],
+  "target_wins": 33,
+  "target_losses": 0,
+  "target_ties": 17,
+  "regression_losses": 5
+}

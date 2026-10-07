@@ -1,0 +1,8 @@
+{
+  "source": "Local verification using exported correct-adapter tokenizer, no weights or GPU",
+  "eval_prompt_is_prefix_of_training": true,
+  "n_supervised": 39,
+  "n_total": 94,
+  "supervised_preview": "</think>\n\n{\"intent\": \"doi_tra\", \"urgency\": \"trung_binh\", \"product\": \"balo laptop\", \"sentiment\": \"trung_tinh\"}<|im_end|>\n",
+  "local_transformers_version": "5.18.0"
+}

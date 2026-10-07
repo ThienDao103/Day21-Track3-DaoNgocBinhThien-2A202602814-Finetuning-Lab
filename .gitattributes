@@ -1,0 +1,4 @@
+large_files/** -text
+data/*.jsonl -text
+results/*.json -text
+results/*.csv -text

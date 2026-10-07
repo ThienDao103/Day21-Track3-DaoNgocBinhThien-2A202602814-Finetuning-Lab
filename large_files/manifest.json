@@ -1,0 +1,72 @@
+{
+  "format_version": 1,
+  "chunk_size": 50331648,
+  "files": [
+    {
+      "path": "adapters/correct/adapter_model.safetensors",
+      "size": 129927008,
+      "sha256": "134e3f90f739fff49427a4084f62514b5016caf6197088b84951b15ef82913e8",
+      "parts": [
+        {
+          "path": "large_files/artifact-1/part-001.bin",
+          "size": 50331648,
+          "sha256": "2738410c6dea17d999593f3c22802a6c4174649aea4759faac85c6c4c3ad4b87"
+        },
+        {
+          "path": "large_files/artifact-1/part-002.bin",
+          "size": 50331648,
+          "sha256": "6a3a93176306016f05a4eea71c74f4894bae4dd526a5302607db51b7adfeb34c"
+        },
+        {
+          "path": "large_files/artifact-1/part-003.bin",
+          "size": 29263712,
+          "sha256": "a8c0792ccd1468b58d0ed202117e85ed61bf11c46fbf53d11d38d007bcceb2ca"
+        }
+      ]
+    },
+    {
+      "path": "colab/lab21_adapter_correct.zip",
+      "size": 123978881,
+      "sha256": "03911e2901d16a8cf49ff2af7c2394e0c1a3c927106d9592fc191cffbbc007df",
+      "parts": [
+        {
+          "path": "large_files/artifact-2/part-001.bin",
+          "size": 50331648,
+          "sha256": "5fe317bb4f70dbffe0f784b5f9b5e782969025533afc135c42d95e2f7af3c76d"
+        },
+        {
+          "path": "large_files/artifact-2/part-002.bin",
+          "size": 50331648,
+          "sha256": "b30228cd1d52b37fd61dff8992c071cd9c1477bb564591f839fcd941a8d86550"
+        },
+        {
+          "path": "large_files/artifact-2/part-003.bin",
+          "size": 23315585,
+          "sha256": "501be7f03335d532c3b5d3e5402539a95492203e783dab04fc47778af5169d49"
+        }
+      ]
+    },
+    {
+      "path": "submission/lab21_2A202602814.zip",
+      "size": 124223893,
+      "sha256": "f3c3334eab59ec0b76defb845ccc76fb244c87e098e4bacede635cb7fe759d0b",
+      "parts": [
+        {
+          "path": "large_files/artifact-3/part-001.bin",
+          "size": 50331648,
+          "sha256": "c2cd13a9490094cb5fae9a42de40e95c06b3aaafe6eb97958e77b080dea3f3ec"
+        },
+        {
+          "path": "large_files/artifact-3/part-002.bin",
+          "size": 50331648,
+          "sha256": "9854fbadf155dc54321032cad86593520e9db9b430a38869eb3219a227699cc7"
+        },
+        {
+          "path": "large_files/artifact-3/part-003.bin",
+          "size": 23560597,
+          "sha256": "d5a7ac343d54932e90b94b43fd9159d02a80aafd00225bf678134cd56dbfb1ae"
+        }
+      ]
+    }
+  ]
+}
